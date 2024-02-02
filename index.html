@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,52 +8,54 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">Inicio</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="#">XML</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">JSON</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="xml.html">XML</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="json.html">JSON</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h3>Categorías</h3>
+                <ul>
+                    <li><a href="xml.html">XML</a></li>
+                    <li><a href="json.html">JSON</a></li>
+                </ul>
+                <h3>Últimos Post</h3>
+                <ul>
+                    <li><a href="xml.html">Artículo de XML</a></li>
+                    <li><a href="json.html">Artículo de JSON</a></li>
+                </ul>
+                <h3>Síguenos en Redes Sociales</h3>
+                <ul>
+                    <a href="https://www.facebook.com/campusfp/"><img src="logo_facebook_1.webp" alt="Facebook" /></a>
+                    <a href="https://twitter.com/Campus_FP"><img src="logo_x.avif" alt="Twitter" /></a>
+                    <a href="https://www.instagram.com/campusfp_/"><img src="logo_insta.webp" alt="Instagram" /></a>
+                    <a href="https://www.linkedin.com/company/10575264/"><img src="logo_linkedin.png" alt="LinkedIn" /></a>
+                </ul>
             </div>
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <article>
-                        <h2>Artículo sobre XML</h2>
-                        <p>El lenguaje de marcado extensible (XML) permite definir y almacenar datos de forma compartible. XML admite el intercambio de información entre sistemas de computación, como sitios web, bases de datos y aplicaciones de terceros.</p>
-                    </article>
-                    <article>
-                        <h2>Artículo sobre JSON</h2>
-                        <p>Contenido del artículo sobre JSON...</p>
-                    </article>
-                </div>
-                <aside class="col-md-4">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action active">Categorías</a>
-                        <a href="#" class="list-group-item list-group-item-action">Últimos posts</a>
-                        <a href="#" class="list-group-item list-group-item-action">Síguenos en redes sociales</a>
-                    </div>
-                </aside>
+            <div class="col-sm-9">
+                <h1>Bienvenido a nuestro blog de programación</h1>
+                <p>¡Hola, mundo de la programación! Nos complace darte la bienvenida a nuestro blog. Aquí, en nuestro pequeño rincón de la web, compartiremos contigo nuestros conocimientos, experiencias y pasión por la programación.</p>
+                <p>Nuestro objetivo es proporcionar contenido de alta calidad que sea útil tanto para los principiantes que están dando sus primeros pasos en el mundo de la programación, como para los desarrolladores experimentados que buscan ampliar sus habilidades y conocimientos.</p>
+                <p>En este blog, encontrarás una variedad de temas, desde tutoriales básicos hasta análisis en profundidad de conceptos avanzados. Nos centraremos especialmente en XML y JSON, dos de las tecnologías más utilizadas para el intercambio de datos en la web.</p>
+                <p>Además de nuestros artículos, te invitamos a unirte a nuestra comunidad en las redes sociales. Síguenos para mantenerte al día con nuestras últimas publicaciones y participar en discusiones interesantes.</p>
+                <p>Esperamos que disfrutes de tu estancia aquí y que encuentres nuestros recursos útiles e informativos. Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros.</p>
+                <p>¡Feliz programación!</p>
             </div>
         </div>
-    </main>
-    <footer>
-        <div class="container">
-            <p class="text-center">© 2024 Blog de Programación. Todos los derechos reservados.</p>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </div>
 </body>
 </html>
+

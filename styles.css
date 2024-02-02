@@ -17,7 +17,7 @@ body {
 
 .navbar .navbar-brand,
 .navbar .nav-link {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
@@ -27,7 +27,7 @@ body {
 .navbar .navbar-brand:hover,
 .navbar .nav-link:hover {
     background-color: #ff7f50;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -67,4 +67,14 @@ body {
 
 .list-group .list-group-item:hover {
     background: #ffd700;
+}
+
+img{
+    width: 100px;
+    margin: 10px;
+    align-items: center;
+}
+
+h3{
+    text-align: center;
 }
